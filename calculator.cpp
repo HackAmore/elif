@@ -44,8 +44,8 @@ int main() {
 	cout << "Ending program..." << endl;
     }
     else if (r > 4) {
-    	cout << "Unknown symbol"
-    	cout << "Ending program..."
+    	cout << "Unknown symbol" << endl;
+    	cout << "Ending program..." << endl;
     }
     cout << "Program ended" << endl;
     return 0;
