@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    float a, b, c, d, h, j, f, g, m;
+    int e = 1;
+    int r;
+    cout << "Choose what action you want?" << endl;
+    cout << "Enter 1 to add numbers" << endl;
+    cout << "Enter 2 to substract numbers" << endl;
+    cout << "Enter 3 to multiply numbers" << endl;
+    cout << "Enter 4 to divide numbers" << endl;
+    cout << "Enter 0 if you want to quit" << endl;
+    cin >> r;
+    if (r == 1){
+        cout << "Enter numbers to add" << endl;
+        cin >> a;
+        cin >> b;
+        float y = a + b;
+        cout << "Result : " << y << endl;
+    }
+    else if (r == 2){
+        cout << "Enter numbers to substract" << endl;
+        cin >> c;
+        cin >> d;
+        float x = c - d;
+        cout << "Result : " << x << endl;
+    }
+    else if (r == 3){
+        cout << "Enter numbers to multiply " << endl;
+        cin >> f;
+        cin >> g;
+        float p = f * g;
+        cout << "Result : " << p << endl;
+    }
+    else if (r == 4) {
+        cout << "Enter numbers to divide" << endl;
+        cin >> h;
+        cin >> j;
+        float k = h / j;
+        cout << "Result : " << k << endl;
+    }
+    else if (r == 0) {
+	cout << "Ending program.." << endl;
+    }
+    cout << "Program ended , exiting" << endl;
+    return 0;
+}
