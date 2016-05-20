@@ -3,7 +3,6 @@ using namespace std;
  
 int main() {
     float a, b, c, d, h, j, f, g, m;
-    int e = 1;
     int r;
     cout << "Choose what action you want?" << endl;
     cout << "Enter 1 to add numbers" << endl;
