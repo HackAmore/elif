@@ -1,3 +1,4 @@
+// First app on C++ by HackAmore
 #include <iostream>
 using namespace std; 
 int main() {
