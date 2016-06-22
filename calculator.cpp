@@ -1,6 +1,5 @@
 #include <iostream>
-using namespace std;
- 
+using namespace std; 
 int main() {
     float a, b, c, d, h, j, f, g, m;
     int r;
@@ -13,28 +12,36 @@ int main() {
     cin >> r;
     if (r == 1){
         cout << "Enter numbers to add" << endl;
-        cin >> a;
+	    cout << "First number - ";    
+		cin >> a;
+        cout << "Second number - ";
         cin >> b;
         float y = a + b;
         cout << "Result : " << y << endl;
     }
     else if (r == 2){
         cout << "Enter numbers to substract" << endl;
+        cout << "Fist number - ";
         cin >> c;
+        cout << "Second number - ";
         cin >> d;
         float x = c - d;
         cout << "Result : " << x << endl;
     }
     else if (r == 3){
         cout << "Enter numbers to multiply " << endl;
+        cout << "Firt number - ";
         cin >> f;
+        cout << "Second number - ";
         cin >> g;
         float p = f * g;
         cout << "Result : " << p << endl;
     }
     else if (r == 4) {
         cout << "Enter numbers to divide" << endl;
+        cout << "First number - ";
         cin >> h;
+        cout << "Second number - ";
         cin >> j;
         float k = h / j;
         cout << "Result : " << k << endl;
